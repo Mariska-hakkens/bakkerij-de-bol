@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Bakkerij de Bol</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <img src="C:/bakkerij-de-bol/logo.png" alt="Bakkerij de Bol Logo" class="logo">
+            <img src="C:/bakkerij-de-bol/header-bread.jpg" alt="Vers gebakken witte bolletjes" class="header-image">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="over-ons.html">Over ons</a></li>
+                <li><a href="assortiment.html">Assortiment</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <section class="contact-info">
+                <h2>Contact Informatie</h2>
+                <div class="info-block">
+                    <h3>Adres</h3>
+                    <p>Bakkerijstraat 123<br>1234 AB Amsterdam</p>
+                </div>
+                
+                <div class="info-block">
+                    <h3>Openingstijden</h3>
+                    <table>
+                        <tr>
+                            <td>Maandag t/m vrijdag:</td>
+                            <td>07:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Zaterdag:</td>
+                            <td>07:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Zondag:</td>
+                            <td>Gesloten</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="info-block">
+                    <h3>Telefonisch Contact</h3>
+                    <p>Tel: 020-1234567</p>
+                    <p>E-mail: info@bakkerijdebol.nl</p>
+                </div>
+            </section>
+
+            <section class="contact-form">
+                <h2>Stuur ons een bericht</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Naam:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Onderwerp:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Bericht:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Versturen</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bakkerij de Bol. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html> 
