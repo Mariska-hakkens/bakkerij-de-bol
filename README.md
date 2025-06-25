@@ -30,8 +30,6 @@ bakkerij-de-bol/
 - HTML5
 - CSS3
 - Vercel Deployment
-- Responsive Design
-- Google Fonts (Playfair Display en Source Sans Pro)
 
 ## 📦 Installatie
 
