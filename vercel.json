@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/over-ons.html", "dest": "/pages/over-ons.html" },
+    { "src": "/assortiment.html", "dest": "/pages/assortiment.html" },
+    { "src": "/contact.html", "dest": "/pages/contact.html" }
+  ]
+}
